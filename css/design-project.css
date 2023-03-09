@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+    font-family: Abel, sans-serif;
+    background-color: #E6E6E6;
+}
+
+h1, h2, h3 {
+    font-family: Anton, sans-serif;
+}
+
+header .header-logo {
+    display: flex;
+}
+
+header .column {
+    flex-direction: row;
+}
+
+header .company-logo {
+    max-width: 60px;
+    max-height: 60px;
+    margin-right: 20px;
+}
+
+header .logo p {
+    margin-right: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+header .header-links {
+    gap: 20px;
+    color: #919191;
+}
+
+.header-text {
+    display: block;
+    margin-top: 35px;
+}
+
+.header-text h1 {
+    font-size: 65px;
+}
+
+.header-text h2 {
+    padding: 50px 0;
+    font-size: 55px;
+}
+
+.color-circle .row {
+    height: 20vh;
+    gap: 40px;
+}
+
+.dot {
+    height: 135px;
+    width: 135px;
+    border-radius: 70px;
+    border: 6px solid #fff;
+}
+
+.dot-text {
+    color: #fff;
+}
+
+.dot.circle-red {
+    background-color: #E6563B;
+
+}
+
+.dot.circle-orange {
+    background-color: #EB9D3A;
+}
+
+.dot.circle-green {
+    background-color: #7CB06C;
+}
+
+.dot.circle-blue {
+    background-color: #00ABA9;
+}
+
+hr {
+    margin: 60px;
+}
