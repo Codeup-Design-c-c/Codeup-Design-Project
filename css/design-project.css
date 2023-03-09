@@ -114,7 +114,7 @@ hr {
 .main-images .bottom-photos{
     margin-bottom: 70px;
 }
-img{
+.background{
     border: 10px solid #E6E6E6;
 }
 
@@ -163,4 +163,16 @@ img{
 
 .circles.circle-blue {
     background-color: #00ABA9;
+}
+
+.right-images .main-right-images img {
+    display: flex;
+    height: 65px;
+    width: 65px;
+
+}
+
+.right-images .main-right-text h2 {
+    font-size:20px;
+    flex-wrap: wrap-reverse;
 }
