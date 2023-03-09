@@ -3,7 +3,7 @@
 
 body {
     font-family: Abel, sans-serif;
-    background-color: #E6E6E6;
+    background-color: #F0F0F0;
 }
 
 h1, h2, h3 {
@@ -84,4 +84,83 @@ header .header-links {
 
 hr {
     margin: 60px;
+}
+
+.body-header .main{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.body-header .right{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.section-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+}
+
+.column.main-images{
+    flex: 2 0 0;
+}
+
+.main-images .top-photos{
+    margin: 100px 0 70px 0;
+}
+
+.main-images .bottom-photos{
+    margin-bottom: 70px;
+}
+img{
+    border: 10px solid #E6E6E6;
+}
+
+.row .bottom-photos .security{
+    height: 100%;
+}
+.image-footers{
+    display: flex;
+    margin-top: 5px;
+}
+
+.image-footers p{
+    display: flex;
+    align-content: start;
+    margin-right: 75px;
+}
+
+.image-footers .circles {
+    flex-direction: row;
+    height: 30px;
+    width: 30px;
+    border-radius: 70px;
+}
+
+.circles{
+    margin-left: 5px;
+}
+.circles h2 {
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+}
+
+.circles.circle-red {
+    background-color: #E6563B;
+
+}
+
+.circles.circle-orange {
+    background-color: #EB9D3A;
+}
+
+.circles.circle-green {
+    background-color: #7CB06C;
+}
+
+.circles.circle-blue {
+    background-color: #00ABA9;
 }
