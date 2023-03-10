@@ -50,15 +50,18 @@ header .header-links {
 }
 
 .color-circle .row {
-    height: 20vh;
     gap: 40px;
+    justify-content: center;
 }
 
 .dot {
     height: 135px;
-    width: 135px;
-    border-radius: 70px;
+    max-width: 135px;
+    border-radius: 100px;
     border: 6px solid #fff;
+}
+.color-circle{
+    height: 20vh;
 }
 
 .dot-text {
@@ -108,7 +111,7 @@ hr {
 }
 
 .main-images .top-photos{
-    margin: 100px 0 70px 0;
+    margin: 80px 0 70px 0;
 }
 
 .main-images .bottom-photos{
@@ -129,13 +132,13 @@ hr {
 .image-footers p{
     display: flex;
     align-content: start;
-    margin-right: 75px;
+    margin-right:80px;
 }
 
 .image-footers .circles {
     flex-direction: row;
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
     border-radius: 70px;
 }
 
@@ -171,7 +174,14 @@ hr {
     width: 80px;
     border: 3px solid #E6E6E6;
 }
-
+.row{
+    flex-wrap: unset;
+}
+.row>*{
+    padding-left: unset;
+    width: unset;
+    padding-right: unset;
+}
 .right-images .main-right-text h2 {
     display: flex;
     font-size:25px;
@@ -195,4 +205,29 @@ hr {
 
 .right-images .footer, .footer-paragraph {
     padding: 0 30px;
+}
+
+@media screen and (max-width: 576px){
+    .right-images{
+        display: none;
+    }
+    .header-text .company-purpose{
+        text-align: center;
+    }
+    .color-circle{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .row .top-photos, .bottom-photos{
+        display: block;
+        margin: unset;
+    }
+    .image-footers p{
+        margin-right: 185px;
+    }
+    .color-circle.row{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
 }
