@@ -167,12 +167,32 @@ hr {
 
 .right-images .main-right-images img {
     display: flex;
-    height: 65px;
-    width: 65px;
-
+    height: 80px;
+    width: 80px;
+    border: 3px solid #E6E6E6;
 }
 
 .right-images .main-right-text h2 {
-    font-size:20px;
-    flex-wrap: wrap-reverse;
+    display: flex;
+    font-size:25px;
+    line-height: 1.2;
+    padding: 0 30px;
+}
+
+.right-images .row {
+    margin-top: 50px;
+    margin-bottom: -20px;
+    gap: 0;
+}
+
+.right-images .footer {
+    margin-top: 70px;
+}
+
+.right-images .footer-paragraph{
+    font-weight: bold;
+}
+
+.right-images .footer, .footer-paragraph {
+    padding: 0 30px;
 }
