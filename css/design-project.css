@@ -227,15 +227,6 @@ hr {
     .header-text .company-purpose{
         text-align: center;
     }
-    .color-circle{
-        /*display: block;*/
-        flex-direction: row;
-    }
-
-    .color-circle.hidden-circles {
-        display: flex;
-        flex-wrap: wrap;
-    }
 
     .row .top-photos, .bottom-photos{
         display: block;
@@ -246,11 +237,14 @@ hr {
         margin-right: 185px;
     }
 
-    .hidden-circles {
-        display: unset;
-    }
-
     hr {
         display: none;
     }
+    .color-circle .row{
+        display: flex;
+
+        gap: 20px;
+        flex-direction: column;
+    }
+
 }
