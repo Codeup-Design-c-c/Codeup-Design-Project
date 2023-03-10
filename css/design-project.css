@@ -54,12 +54,15 @@ header .header-links {
     justify-content: center;
 }
 
+
+
 .dot {
     height: 135px;
     max-width: 135px;
     border-radius: 100px;
     border: 6px solid #fff;
 }
+
 .color-circle{
     height: 20vh;
 }
@@ -83,6 +86,10 @@ header .header-links {
 
 .dot.circle-blue {
     background-color: #00ABA9;
+}
+
+.hidden-circles {
+    display: none;
 }
 
 hr {
@@ -208,26 +215,42 @@ hr {
 }
 
 @media screen and (max-width: 576px){
+
     .right-images{
         display: none;
     }
+
+    .small-main-screen {
+        margin-top: 200px;
+    }
+
     .header-text .company-purpose{
         text-align: center;
     }
     .color-circle{
-        flex-direction: column;
+        /*display: block;*/
+        flex-direction: row;
+    }
+
+    .color-circle.hidden-circles {
+        display: flex;
         flex-wrap: wrap;
     }
+
     .row .top-photos, .bottom-photos{
         display: block;
         margin: unset;
     }
+
     .image-footers p{
         margin-right: 185px;
     }
-    .color-circle.row{
-        flex-direction: column;
-        flex-wrap: wrap;
+
+    .hidden-circles {
+        display: unset;
     }
 
+    hr {
+        display: none;
+    }
 }
