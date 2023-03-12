@@ -180,7 +180,7 @@ hr {
 }
 
 .right-images .main-right-text {
-    padding-right: 50px;
+    padding-right: 0px;
 }
 
 .row{
@@ -191,6 +191,11 @@ hr {
     width: unset;
     padding-right: unset;
 }
+
+.right-images {
+    margin-bottom: 50px;
+}
+
 .right-images .main-right-text h2 {
     display: flex;
     font-size:25px;
@@ -213,7 +218,7 @@ hr {
 }
 
 .right-images .footer, .footer-paragraph {
-    padding: 0 30px;
+    padding-left: 30px;
 }
 
 @media screen and (min-width: 992px) {
